@@ -13,6 +13,20 @@ body {
 .text-container {
 	width: 900px;
 	background: white;
-	height: 100vh;
-	padding: 0 100px 0 100px;
+	height: 100%;
+	padding: 30px 100px 30px 100px;
+}
+
+.sub-list {
+	padding-left: 50px;
+}
+
+.facts-list li {
+	padding-bottom: 12px;
+	
+
+}
+
+.facts-list {
+	padding-left: 27px;
 }
