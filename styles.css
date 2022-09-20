@@ -14,19 +14,23 @@ body {
 	width: 900px;
 	background: white;
 	height: 100%;
-	padding: 30px 100px 30px 100px;
+	padding: 30px 120px 30px 120px;
+}
+
+h1 {
+	text-align : center;
 }
 
 .sub-list {
 	padding-left: 50px;
 }
 
-.facts-list li {
+.list li {
 	padding-bottom: 12px;
 	
 
 }
 
-.facts-list {
+.list {
 	padding-left: 27px;
 }
