@@ -17,9 +17,15 @@ body {
 	padding: 30px 120px 30px 120px;
 }
 
+.pre-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
 h1 {
 	text-align : center;
 	font-size: 28px;
+	font-weight: normal;
 }
 
 .sub-list {
@@ -28,12 +34,13 @@ h1 {
 
 .list li {
 	padding-bottom: 12px;
-	
-
+	font-size: 19px;
 }
 
 .list {
-	padding-left: 27px;
+	padding: 10px 0 0 27px;
+	background: rgb(236, 236, 236);
+	border-radius: 10px;
 }
 
 .testimonial {
@@ -66,4 +73,20 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.header-image {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.header-img {
+	margin: auto;
+	background: red;
+	height: 100%;
+	width: auto;
 }
