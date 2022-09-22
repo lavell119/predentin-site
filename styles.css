@@ -17,12 +17,12 @@ body {
 	width: 900px;
 	background: white;
 	height: 100%;
-	padding: 30px 120px 30px 120px;
+	padding: 0 120px 30px 120px;
 }
 
 .pre-title {
 	font-size: 18px;
-	font-weight: normal;
+	font-weight: 200;
 }
 
 h1 {
@@ -50,11 +50,10 @@ h1 {
 	display: flex;
 	width: 95%;
 	margin: auto;
-	height: 140px;
 }
 
 .test-img {
-	height: 100px;
+	height: 80px;
 	width: auto;
 }
 
@@ -66,6 +65,7 @@ h1 {
 .testimonial-right {
 	display: flex;
 	flex-direction: column;
+	gap: 5px;
 	justify-content: space-between;
 	padding: 0 20px 0 20px;
 	height: 100%;
@@ -92,4 +92,11 @@ h1 {
 	background: red;
 	height: 100%;
 	width: auto;
+}
+
+#banner {
+	width: 900px;
+	position: relative;
+	right: 120px;
+	padding-top: 5px;
 }
